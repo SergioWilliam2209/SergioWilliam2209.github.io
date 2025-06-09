@@ -1,0 +1,130 @@
+/*paleta de cores: vermelho escuro (#A10000), cinza escuro (#111111), cinza claro (#cccccc), cinza médio (#999999)*/
+
+body {
+	margin: 0;
+	background: linear-gradient(#ffffff, rgb(255, 200, 200));
+}
+
+.formIcon {
+	color: #ffffff;
+	font-size: 30px;
+	/*text-shadow: 5px 5px 5px grey;*/
+}
+
+nav {
+	font-size: 22px;
+	padding: 10px;
+	background-color: #A10000;
+	color: #ffffff;
+	width: 100%;
+	position: fixed;
+}
+
+nav a:link, 
+nav a:visited {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+nav a:hover {
+	color: #cccccc;
+	text-decoration: underline;
+}
+
+.nda {
+	height: 62px;
+}
+
+#corpo {
+	padding: 70px;
+	/*background-repeat: no-repeat;
+	background-position: center top;
+	background-image: url(Imagem/imagemQueijo.png);*/
+	min-height: 80vh;
+}
+
+#paginaAtual {
+	color: #cccccc;
+}
+
+p {
+	font-size: 20px;
+	/*text-indent: 30px;*/
+}
+
+.borda {
+	border-width: 2px;
+	border-color: #000000;
+	border-style: solid;
+}
+
+h1 {
+	padding: 8px;
+	margin: 0px;
+}
+
+.rodape {
+	padding: 20px;
+	background-color: #111111;
+	color: #999999;
+	text-align: center;
+}
+
+.cadastro {
+	/*width: 145px;
+	height: 40px;*/
+	border-width: 2px;
+	border-color: #111111;
+	border-style: solid;
+	background-color: #ffffff;	
+	border-radius: 20px;
+	font-size: 22px;
+}
+
+fieldset {
+	padding-left: 30px;
+	background-color: #ff000050;
+}
+
+hr {
+	border-color: #000000;
+}
+
+.teleporte {
+
+}
+
+.fundoQueijo {
+	/*background-repeat: no-repeat;*/
+	/*background-position: center top;*/
+	background-image: url(Imagem/imagemRestaurante.png);
+	background-size: 100%;
+}
+
+.anuncio {
+	border-width: 3px;
+	border-color: #000000;
+	border-style: solid;
+	padding-top: 300px;
+	padding-bottom: 600px;
+	font-size: 60px;
+	text-shadow: 5px 5px #000000;
+	text-align: center;
+	color: #ffff00;
+}
+
+input, select {
+	background-color: #ff000050;
+}
+
+input[type="checkbox"] {
+	accent-color: #A10000;
+}
+
+li {
+	align-items: center;
+}
+
+td, th {
+	padding: 10px;
+}
