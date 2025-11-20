@@ -1,0 +1,141 @@
+index
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon"href="imagens/icone.ico">
+	<title>As Maravilhas do Império Romano</title>
+</head>
+<body>
+	<nav class="header">
+		<div class="topoHeader">
+			<a href="index.html" class="head">
+			As Maravilhas do Império Romano
+			</a>
+		</div>
+			<hr class="barraHeader">
+		<div class="fimHeader">
+			/tps da vida
+		</div>
+	</nav>
+	
+	<div class="main">
+		<img src="imagens/imagem-coliseu1.png" class="imagemInicio">
+	</div>
+
+	<footer class="rodape">
+		<div class="parteRodape">
+			<h2 class="tituloRodape">Titulo 1 rodape</h2>
+			<p>
+				texto
+			</p>
+		</div>
+		<hr class="barraVertical">
+		<div class="parteRodape">
+			<h2 class="tituloRodape">Entre em contato</h2>
+			<p>
+				texto contato
+			</p>
+		</div>
+	</footer>
+</body>
+</html>
+
+style
+
+/*#E01111 vermelho "guerra", #100000 preto avermelhado, #EFFFAA branco esverdiado*/
+body {
+	margin: 0px;
+	padding: 0px;
+	min-height: 100vh;
+	font-size: 16px;
+}
+
+.header {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	position: fixed;
+	background-color: #D00101;
+	width: 100vw;
+	padding: 1vw;
+	font-size: clamp(1rem, 2vw, 2rem);
+	color: #ffffff;
+}
+
+.topoHeader {
+	display: flex;
+	flex-direction: row;
+	height: 65%;
+}
+
+.fimHeader {
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	height: 35;
+}
+
+a.head:link,
+a.head:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a.head:hover {
+	color: #c0c0c0;
+	text-decoration: underline;
+}
+
+.rodape {
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	display: flex;
+	height: 20vh;
+	background-color: #303030;
+	color: #dfdfdf;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap: nowrap;
+	align-self: end;
+}
+
+.parteRodape {
+	min-width: 40%;
+}
+
+.barraVertical {
+	height: 80%;
+	width: 2px;
+	border: none;
+	background-color: #ffffff;
+	margin: 0px;
+}
+
+.main {
+	min-height: 70vh;
+	padding-top: 10vh;
+}
+
+.tituloRodape {
+	color: #ffffff;
+	align-self: flex-start;
+	font-size: 1.5rem;
+
+}
+
+.barraHeader {
+	background-color: #ffffff;
+	border: none;
+	width: 95%;
+	height: 2px;
+}
+
+.imagemInicio {
+	align-self: center;
+	width: 90%;
+}
